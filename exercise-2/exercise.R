@@ -13,10 +13,10 @@ z <- x + y
 first.three <- c(z[1],z[2],z[3])
 
 # Create a vector `small` that has the values of `z` that are less than 5
-small <- c(z<5)
+small <- c(z[z < 5])
 
 # Create a vector `large` that has the values of `z` that are greater than or equal to 5
-large <- c(z>5)
+large <- c(z[z > 5])
 
 ### Bonus ###
 
